@@ -23,4 +23,6 @@
   <div>
     <%= form.submit %>
   </div>
+
+  <br><%= button_to "Logout", destroy_user_session_path, method: :delete %>
 <% end %>

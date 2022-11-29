@@ -17,3 +17,5 @@
 <%= render 'comments/form' %>
 
 <br>Owner : <strong><%= current_user.email %></strong>.
+
+<br><%= button_to "Logout", destroy_user_session_path, method: :delete %>
